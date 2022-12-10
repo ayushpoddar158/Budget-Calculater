@@ -186,4 +186,7 @@ border: 2px solid red;
     .eachItem{
         width: 90%;
     }
+    .parent input{
+        width: 33%;
+    }
 }
