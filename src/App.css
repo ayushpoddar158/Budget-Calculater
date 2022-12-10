@@ -162,11 +162,11 @@ font-weight: 600;
 #deletebutton{
     background-color: red;
     color: white;
-    padding: 3px;
+    padding: 5px;
     border-radius: 5px;
     border: 2px solid darkblue;
     border: 2px solid rgb(220, 216, 216);
-    width: 15%;
+    width: 16%;
 }
 #deletebutton:hover{
     color: red;
@@ -179,5 +179,8 @@ border: 2px solid red;
     .mainList{
         width: 80%;
         margin: auto;
+    }
+    .child1{
+        width: 80%;
     }
 }
