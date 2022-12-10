@@ -148,7 +148,7 @@ font-weight: 600;
 #editbutton{
     background-color: chocolate;
     color: white;
-    padding: 3px;
+    padding: 5px;
         border-radius: 5px;
     border: 2px solid rgb(220, 216, 216);
     width: 15%;
@@ -181,6 +181,9 @@ border: 2px solid red;
         margin: auto;
     }
     .child1{
-        width: 80%;
+        width: 85%;
+    }
+    .eachItem{
+        width: 90%;
     }
 }

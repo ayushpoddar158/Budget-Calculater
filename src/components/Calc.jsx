@@ -46,7 +46,7 @@ return (
 <div className='itemdata'>{elem.data}</div>
 <div className='itemAmount'>{elem.amount}</div>
 <button id='editbutton' onClick={()=>{handleEdit(elem)}}>edit</button>
-<button id='deletebutton' onClick={()=>{handleDelete(elem)}}>delete</button>
+<button id='deletebutton' onClick={()=>{handleDelete(elem)}}>del</button>
     </div>
 )
   })
