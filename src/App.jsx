@@ -64,6 +64,7 @@ if(bdata && bamount ){
     )
     setBData("")
     setBAmount("")
+    setIsTrue(true)
   }
   
 
