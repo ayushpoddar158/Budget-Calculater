@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding:0;
+   
+}
+body{
+    background-color: antiquewhite;
+    height: 100vh;
+}
+.parent{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parent h1{
+    /* background-color: red; */
+    color: darkblue;
+    align-items: center;
+    margin: 10px;
+    width: 70%;
+
+border-bottom: 2px solid crimson;
+
+
+
+}
+.child1{
+  display: flex;
+  background-color: bisque;
+  width: 50%;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+ 
+}
+.parent input{
+width: 25%;
+margin: 10px;
+padding: 5px;
+color: crimson;
+
+}
+.parent input::placeholder{
+    color: crimson;
+}
+.parent button{
+    height: 25px;
+    padding: 6px;
+    background-color: crimson;
+    color: white;
+    border-radius: 5px;
+    width: 55px;
+    height: 30px;
+    border: 2px solid white;
+   
+}
+.parent button:hover{
+    background-color: white;
+    color: crimson;
+    border: 2px solid crimson;
+    scale: 1.1;
+}
+
+
+.mainList{
+background-color: darkblue;
+  
+    width: 40%;
+    /* height: 40vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30%;
+
+    border-radius: 40px 0px 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 30px;
+
+}
+.eachItem{
+    background-color: white;
+    border: 2px solid crimson;
+    display: flex;
+    border-radius: 0px 10px ;
+   
+    width: 80%;
+    height: auto;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 6px;
+    align-items: center;
+}
+
+.total{
+    margin-top: 10px;
+    /* background-color: red; */
+    padding: 10px;
+}
+#totalshow{
+color: greenyellow;
+font-weight: 600;
+}
+
+.Removebtn{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+    border: 2px solid white;
+
+}
+.Removebtn:hover{
+    scale: 1.1;
+    background-color: white;
+    color: grey;
+    border: 2px solid grey;
+}
+
+
+.itemdata{
+    color: darkblue;
+    font-weight: bolder;
+    font-size: medium;
+    width: 20%;
+    height: auto;
+
+}
+.itemAmount{
+    color: red;
+    font-weight: bold;
+}
+
+
+#editbutton{
+    background-color: chocolate;
+    color: white;
+    padding: 3px;
+        border-radius: 5px;
+    border: 2px solid rgb(220, 216, 216);
+}
+#editbutton:hover{
+    color: chocolate;
+    background-color: white;
+    border: 2px solid chocolate;
+
+}
+#deletebutton{
+    background-color: red;
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+    border: 2px solid darkblue;
+    border: 2px solid rgb(220, 216, 216);
+}
+#deletebutton:hover{
+    color: red;
+background-color: white;
+border: 2px solid red;
+
+}
